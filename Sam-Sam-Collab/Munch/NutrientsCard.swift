@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct NutrientsCard: View {
+    var text: String
+    var number: Int
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 40) {
             HStack {
-                Label("Carbohydrates", systemImage: "flame.fill")
+                Label(text, systemImage: "flame.fill")
                     .foregroundColor(Color(uiColor: .systemGreen))
                     .fontWeight(.medium)
                 
@@ -21,14 +24,13 @@ struct NutrientsCard: View {
                     .foregroundColor(Color(uiColor: .systemGray))
             }
             
-            HStack(alignment: .center, spacing: 0) {
-                Text("20")
+            HStack(alignment: .firstTextBaseline, spacing: 0) {
+                Text("\(number)")
                     .font(.system(.largeTitle, design: .rounded, weight: .medium))
                 Text("mg")
                     .font(.body)
                     .fontWeight(.medium)
                     .foregroundColor(Color(uiColor: .systemGray))
-                    .padding(.top, 10)
             }
         
         }
@@ -44,7 +46,7 @@ struct NutrientsCard: View {
 
 struct NutrientsCard_Previews: PreviewProvider {
     static var previews: some View {
-        NutrientsCard()
+        NutrientsCard(text: "Carbohydrates", number: 50)
 //            .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding()
