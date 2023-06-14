@@ -38,9 +38,7 @@ struct NutrientsCard: View {
         .padding(.vertical, 12)
 //        .background(Color(uiColor: .systemBackground))
         .background(.thinMaterial)
-        .cornerRadius(10)
-        
-        
+        .cornerRadius(10)                
     }
 }
 
