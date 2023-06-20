@@ -12,6 +12,11 @@
 		A34008CE2A319016009E4AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34008CD2A319016009E4AE2 /* Assets.xcassets */; };
 		A34008D12A319016009E4AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34008D02A319016009E4AE2 /* Preview Assets.xcassets */; };
 		A34008D92A3194F6009E4AE2 /* NutrientsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34008D82A3194F6009E4AE2 /* NutrientsCard.swift */; };
+		A345ECCC2A37AF42005B32E8 /* RingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345ECCB2A37AF42005B32E8 /* RingCard.swift */; };
+		A345ECCE2A37B498005B32E8 /* RingCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345ECCD2A37B498005B32E8 /* RingCollection.swift */; };
+		A361B8E32A36BA3B00F411EA /* MacrosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A361B8E22A36BA3B00F411EA /* MacrosList.swift */; };
+		A361B8E52A36C4D300F411EA /* MacrosCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A361B8E42A36C4D300F411EA /* MacrosCard.swift */; };
+		A3CD9D422A392B5100A753D1 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CD9D412A392B5100A753D1 /* RecipeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		A34008CD2A319016009E4AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A34008D02A319016009E4AE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A34008D82A3194F6009E4AE2 /* NutrientsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsCard.swift; sourceTree = "<group>"; };
+		A345ECCB2A37AF42005B32E8 /* RingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingCard.swift; sourceTree = "<group>"; };
+		A345ECCD2A37B498005B32E8 /* RingCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingCollection.swift; sourceTree = "<group>"; };
+		A361B8E22A36BA3B00F411EA /* MacrosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosList.swift; sourceTree = "<group>"; };
+		A361B8E42A36C4D300F411EA /* MacrosCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosCard.swift; sourceTree = "<group>"; };
+		A3CD9D412A392B5100A753D1 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				A34008D82A3194F6009E4AE2 /* NutrientsCard.swift */,
+				A361B8E22A36BA3B00F411EA /* MacrosList.swift */,
+				A361B8E42A36C4D300F411EA /* MacrosCard.swift */,
+				A345ECCB2A37AF42005B32E8 /* RingCard.swift */,
+				A345ECCD2A37B498005B32E8 /* RingCollection.swift */,
+				A3CD9D412A392B5100A753D1 /* RecipeCard.swift */,
 			);
 			path = Munch;
 			sourceTree = "<group>";
@@ -149,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34008CC2A319014009E4AE2 /* ContentView.swift in Sources */,
+				A345ECCC2A37AF42005B32E8 /* RingCard.swift in Sources */,
 				A34008CA2A319014009E4AE2 /* Sam_Sam_CollabApp.swift in Sources */,
+				A361B8E32A36BA3B00F411EA /* MacrosList.swift in Sources */,
 				A34008D92A3194F6009E4AE2 /* NutrientsCard.swift in Sources */,
+				A3CD9D422A392B5100A753D1 /* RecipeCard.swift in Sources */,
+				A361B8E52A36C4D300F411EA /* MacrosCard.swift in Sources */,
+				A345ECCE2A37B498005B32E8 /* RingCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
